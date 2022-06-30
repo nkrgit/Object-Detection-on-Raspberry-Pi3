@@ -19,7 +19,6 @@
 <ul>Using new raspberry pi models will give better FPS (i.e. frames per second)</ul>
 <ul>Applications are not limited to Crowd counting, Self-driving cars, Video surveillance, Face detection, Anomaly detection.</ul>
 
-
-
-
+<h3>Sample Frame from the video:</h3>
+<img src=https://github.com/nkrgit/Object-Detection-on-Raspberry-Pi3/blob/main/Sample_Frame.png title="hover text">
  

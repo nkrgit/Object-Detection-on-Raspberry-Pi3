@@ -1,0 +1,36 @@
+sudo apt-get update
+
+sudo apt-get upgrade
+
+preference - raspi config - camera enable- reboot
+
+rename - mv aaaa/ newname
+cd new name
+
+virtual env - sudo pip3 install virtualenv
+
+new env: python3 -m venv tflite1-env
+
+
+reactivating env:
+
+
+cd tflite1
+
+source tflite1-env/bin/activate
+
+python3 TFLite_detection_livevideo.py --modeldir=Sample_TFLite_model
+
+python3 TFLite_detection_image.py --modeldir=Sample_TFLite_model --image=test.mp4
+
+
+python3 TFLite_detection_video.py --modeldir=Sample_TFLite_model --video=test.mp4
+
+python3 TFLite_detection_video.py --modeldir=BirdSquirrelRaccoon_TFLite_model --video=test.mp4
+
+see labels of google file
+
+ 
+if object_name == 'person':
+    print("Yes!!!! Found the target")
+

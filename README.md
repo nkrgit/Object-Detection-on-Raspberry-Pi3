@@ -16,6 +16,7 @@
 <ul> Web Cam (i.e. to feed live video data) </ul>
   
 <h3>Improvements:</h3>
+<ul>Extending for automatic braking system, whenever a red light is detected the brakes are automatically applied</ul>
 <ul>Using new raspberry pi models will give better FPS (i.e. frames per second)</ul>
 <ul>Applications are not limited to Crowd counting, Self-driving cars, Video surveillance, Face detection, Anomaly detection.</ul>
 
